@@ -17,6 +17,6 @@ read -p "PilihLah Sesuka Kalian :" who
 if [ $who = 1 ]
 then
 read -p "Spam Sekarang :" nomor
-link=https://id.jagreward.com/member/verify-mobile/$n>
+link=https://id.jagreward.com/member/verify-mobile/$nomor
 curl -S $link
 fi
